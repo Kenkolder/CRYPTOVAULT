@@ -1,0 +1,132 @@
+body{
+    background-image:url("bg.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.main{
+    width: 100%;
+    height:100vh;
+    text-align: center;
+
+}
+.logo{
+    text-align:center;
+    color:#33FF33;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.box{
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    color:#33FF33;
+    font-size: medium;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputbox input{
+    text-align: center;
+    padding: .4em;
+    width:300px;
+    height:3em;
+    color: #eb1515;
+    border:none;
+    background: none;
+    border-bottom: 2px solid  #33FF33;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inputbox input:focus{
+    background: black;
+    border: none;
+    outline: none;
+}
+.button{
+    width: 300px;
+    height: 40px;
+    background: #33FF33;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 0px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.button:hover{
+    background:red;
+    color: #000;
+}
+.button a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.goth{
+    position:absolute;
+    top: 260px;
+  right: 550px;
+  width: 400px;
+  border: 3px solid #33FF33;
+}
+.color1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.color1 input{
+    text-align: center;
+    padding: .4em;
+    width:300px;
+    height:3em;
+    color: #eb1515;
+    border:none;
+    background: none;
+    border-bottom: 2px solid  #33FF33;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.color1 input:focus{
+    background: black;
+    border: none;
+    outline: none;
+}
+.download{
+    background-color:#33FF33;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 690px;
+    right: 550px;
+    width: 400px;
+}
+.download1{
+    display: flex;
+    background-color:green;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2em 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
